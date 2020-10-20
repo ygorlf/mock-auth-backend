@@ -1,5 +1,4 @@
 {
-  "port": 8085,
   "cors-origin": "*",
   "secret": "supda-dupa-secret",
   "debugOutput": true,

@@ -76,4 +76,6 @@ app.use(function (err, req, res, _) {
 });
 
 // Start listening for requests
-app.listen(config.get('port'), () => console.log(`Mock auth server listening on port ${config.get('port')}...`));
+app.listen(process.env.PORT || 8080, () => {
+  console.log(`Mock auth server listening on port ${process.env.PORT || 8080}...`);
+});
